@@ -2,7 +2,6 @@
 
 A cross-platform vehicle management helper application built with Flutter. Gaadhi Hel helps users manage their vehicles, track important information, and streamline day-to-day transportation tasks across mobile and desktop platforms.
 
-
 ## Features
 - Cross-platform: Android, iOS, Web, Windows, macOS, Linux
 - Clean, responsive UI
