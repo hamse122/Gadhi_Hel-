@@ -24,9 +24,5 @@ class GaadhiHelApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
     );
   }
-}
-
-
-
-
+} 
 
