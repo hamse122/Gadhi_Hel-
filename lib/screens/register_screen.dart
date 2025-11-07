@@ -2,7 +2,13 @@ import 'package:flutter/material.dart';
 import '../main.dart';
 import '../widgets/social_login_row.dart';
 
+class RegisterScreen extends StatefulWidget {
+  const RegisterScreen({super.key, required this.onToLogin});
+  final VoidCallback onToLogin;
 
+  @override
+  State<RegisterScreen> createState() => _RegisterScreenState();
+}
 
 class _RegisterScreenState extends State<RegisterScreen> {
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
