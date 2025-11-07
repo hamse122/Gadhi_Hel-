@@ -3,7 +3,8 @@ import '../main.dart';
 import '../widgets/title_block.dart';
 
 class WelcomeScreen extends StatelessWidget {
-
+  const WelcomeScreen({super.key, required this.onGetStarted});
+  final VoidCallback onGetStarted;
 
   @override
   Widget build(BuildContext context) {
