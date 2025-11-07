@@ -6,6 +6,7 @@ class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key, required this.onGetStarted});
   final VoidCallback onGetStarted;
 
+
   @override
   Widget build(BuildContext context) {
     return Column(
