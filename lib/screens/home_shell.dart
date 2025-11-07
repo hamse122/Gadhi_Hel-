@@ -52,24 +52,5 @@ class _HomeShellState extends State<HomeShell> {
     );
   }
 
-  Widget _buildScreen(BuildContext context) {
-    switch (current) {
-      case AppScreen.welcome:
-        return WelcomeScreen(onGetStarted: () => showScreen(AppScreen.discover));
-      case AppScreen.discover:
-        return DiscoverScreen(
-          onLogin: () => showScreen(AppScreen.login),
-          onRegister: () => showScreen(AppScreen.register),
-        );
-      case AppScreen.login:
-        return LoginScreen(
-          onToRegister: () => showScreen(AppScreen.register),
-        );
-      case AppScreen.register:
-        return RegisterScreen(
-          onToLogin: () => showScreen(AppScreen.login),
-        );
-    }
-  }
-}
+
 
