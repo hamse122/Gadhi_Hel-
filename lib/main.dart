@@ -6,7 +6,6 @@ void main() {
   runApp(const GaadhiHelApp());
 }
 
-
 class GaadhiHelApp extends StatelessWidget {
   const GaadhiHelApp({super.key});
 
@@ -26,3 +25,4 @@ class GaadhiHelApp extends StatelessWidget {
     );
   }
 }
+
